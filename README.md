@@ -1,34 +1,41 @@
-# 🐍 Snake (Python Turtle)
+# 🐍 Snake Game (Python Turtle)
 
-A simple Snake game using the built-in `turtle` graphics module.  
-Arrow keys to move. Eat food to score. Don’t hit the wall or yourself.
+Classic Snake, written from scratch in Python with the built-in `turtle` graphics.  
+Move with the arrow keys, eat the food, and whatever you do… don’t crash into yourself.  
+
+Simple? Yes. Addictive? Absolutely.  
 
 ---
 
-## Features
+## ✨ Features
+- 600×600 playfield with walls (old school style)
+- Snake grows every time it eats food
+- Randomized food spawning
+- Scoreboard that actually works (no cheating here)
+- Game over screen when you inevitably overestimate your reflexes
 
-- Clean 600×600 playfield
-- Food spawns at random positions
-- Scoreboard at the top
-- Classic rules: walls and tail are game over
+---
 
-## Preview
-
+## 📸 Preview
 ![Snake preview](preview.png)
 
 ---
 
-## Requirements
-
+## 🛠 Requirements
 - **Python 3.10+**
-- Uses only the Python **standard library**: `turtle`, `random`, `time`
+- Standard library only:
+  - `turtle`
+  - `random`
+  - `time`
 
-If Python isn’t installed, grab it from: https://www.python.org/downloads/
+👉 If you don’t have Python yet, grab it here: [python.org/downloads](https://www.python.org/downloads/)
 
 ---
 
-## Run
+## 🚀 Run It
+Clone and play:
 
 ```bash
+git clone https://github.com/<your-username>/snake-game.git
+cd snake-game
 python3 main.py
-```
